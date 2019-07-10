@@ -15,6 +15,14 @@ body {
   background-color:rgb(178, 124,145);
   
   }
+  #gmap_canvas {
+   frame-border="0";
+   scrolling="no";
+   height="0";
+   marginwidth="0";
+   height: 200px;
+   width: 200px;
+  }
 .flexcontainer {
  margin: 0;
  padding: 0;
@@ -112,6 +120,17 @@ background-color:rgba(255,255,255, 0.95);
 border: solid black 5px;
  
 }
+#lgbtmassagebyflocontent{
+ width:300px;
+    height:300px;
+    max-width: 200px;
+    max-height:450px;
+  
+   opacity:1.0;
+   text-align:center;
+   z-index:1000;
+ float: left;
+}
 
 #whattoexpect {
 box-sizing:content-box;
@@ -152,6 +171,7 @@ h1 {
     font-size: 60px;
     color: rgb(112,65,126);
     text-align: center;
+    width:auto;
 }
 
 p {
@@ -159,6 +179,7 @@ p {
     color: rgb(112,65,126);
     text-align: wrapped;
     font-size: 13px;
+    
 }
 #massagebyflobullet1 {
   font-family:'Montserrat', sans-serif;  
@@ -166,13 +187,13 @@ p {
     text-align: left;
     font-size: 14px;
 }
- #column {
+ #column1, #column2, #column3, #column4, #column5, #column6 {
   float: left;
   width: 50%;
 }
 
 /* Clear floats after the columns */
-#row:after {
+#row1, #row2, #row3, #row4, #row5:after {
   content: "";
   display: table;
   clear: both;
@@ -180,9 +201,10 @@ p {
 }
 
 .lgbtpic {
-    width:400px;height:400px;
-   padding-left:100px;
-   padding-right:100px;
+    width:300px;
+    height:300px;
+    max-width: 300px;
+   float: right;
    opacity:1.0;
    text-align:center;
    z-index:1000;
@@ -191,7 +213,7 @@ p {
 }
 
 .openbarbers {
-     width:400px;height:400px;
+     width:200px;height:200px;
    padding-left:100px;
    padding-right:100px;
    opacity:1.0;
