@@ -121,11 +121,11 @@ border: solid black 5px;
  
 }
 #lgbtmassagebyflocontent{
- width:300px;
+ width:400px;
     height:300px;
-    max-width: 200px;
+    max-width: 400px;
     max-height:450px;
-  
+   padding-left:20px;
    opacity:1.0;
    text-align:center;
    z-index:1000;
@@ -205,6 +205,7 @@ p {
     height:300px;
     max-width: 300px;
    float: right;
+   padding-right:100px;
    opacity:1.0;
    text-align:center;
    z-index:1000;
