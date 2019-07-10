@@ -201,11 +201,9 @@ p {
 }
 
 .lgbtpic {
-    width:300px;
-    height:300px;
+    width:100%;
     max-width: 300px;
    float: right;
-   padding-right:100px;
    opacity:1.0;
    text-align:center;
    z-index:1000;
