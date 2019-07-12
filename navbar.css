@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap'); /*header font*/
+
+/*
+.nav-outer {
+ margin: 0;
+ padding: 2%;
+ width: 100%;
+ border: 3px solid black;
+ position: fixed;
+ background-color: white;
+ text-align: center;
+ padding-top:2%;
+ padding-bottom:2%;
+ display:flex;
+ z-index: 1000;
+}
+
+.nav-wrap a:link {
+color: rgb(112,65,126);
+  display: flex;
+  font-size: 175%;
+  text-decoration: none;
+  font-family:'Amatic SC', cursive;
+  font-weight:bold;
+  text-align: justify;
+  padding-left:25%;
+  padding-right:25%;
+}
+
+
+.nav-menu a:hover {
+text-decoration: underline;
+ transition: 0;
+ color: rgb(112,65,126);
+ overflow: inherit;
+
+}
+#faqhead {
+ padding-left:25%;
+ padding-right:5%;
+}
+
+
+@media screen and (max-width:768px) {
+    .nav-outer {
+        width:100%;
+        text-align: center;
+        margin: 0 0 3px 0;
+    }
+    .nav-menu {
+     width:100%;
+     margin: 0 0 3px 0;
+     text-align: center;
+    }*/
+* {box-sizing: border-box}
+body {font-family: 'Amatic SC', cursive;}
+
+html {
+
+    scroll-behavior: smooth;}
+    
+    
+.navbar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+  position: fixed;
+  border: 2px solid black;
+  z-index: 1000;
+}
+
+.navbar a {
+  float: left;
+  padding: 20px;
+  color: purple;
+  text-decoration: none;
+  font-size: 225%;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+}
+
+.navbar a:hover {
+ 
+  text-decoration: underline;
+}
+
+.navbar a.active {
+  text-decoration: underline;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
