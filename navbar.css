@@ -96,5 +96,6 @@ html {
     display: block;
     width: 100%;
     text-align: left;
-    font-size: 75%;
+    font-size: 125%;
+   max-height:50px;
   }
