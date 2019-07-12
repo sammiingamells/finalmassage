@@ -90,12 +90,68 @@ html {
 .navbar a.active {
   text-decoration: underline;
 }
+.dropbtn {
+
+  opacity: 0;
+
+}
+
 @media screen and (max-width: 500px) {
+ 
+ .dropbtn {
+  background-color: white;
+  color: purlpe;
+  font-size: 125%;
+  border:2px solid black;
+  padding:0;
+  margin:0;
+  cursor: pointer;
+  z-index:1000;
+  opacity: 1;
+  font-family: 'Amatic SC', cursive;
+  position: fixed;
+}
+
+.navbar {
+  position: relative;
+  display: inline-block;
+  border:none;
+  
+}
+
+.navbar2 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  text-decoration: underline;
+  font-size: 50%;
+  z-index: 1000;
+  position: fixed;
+}
+
+.navbar2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar2 a:hover {background-color: white;}
+
+.navbar:hover .navbar2 {
+  display: block;
+}
+
+.navbar:hover .dropbtn {
+  background-color:white;
+}
+/*
   .navbar a {
     float: none;
     display: inline;
     width: 100%;
     text-align: center;
     font-size: 125%;
-    max-height:50px;
+    max-height:50px;*/
   }
